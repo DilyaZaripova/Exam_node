@@ -1,0 +1,21 @@
+{
+    "nextId":5,
+    "records":
+        [
+            {
+                "id":1,
+                "name":"Olivia",
+                "age":"25"
+            }, 
+            {
+                "id":2,
+                "name":"Luke",
+                "age":"28"
+            }, 
+            {
+                "id":3,
+                "name":"Emily",
+                "age":"23"
+            }
+        ]
+}
