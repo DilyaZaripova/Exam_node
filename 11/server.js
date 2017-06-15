@@ -15,7 +15,8 @@ server.listen(3000, function () { console.log('Server is running on http://local
 io.on('connection', function(socket) {
     console.log('Connection!');
     socket.on('message', function(text){
-        //socket.emit('message', text);
+        var text = String('Hello, world!');
+        socket.emit('message', text);
         console.log(text);
     });
 });
